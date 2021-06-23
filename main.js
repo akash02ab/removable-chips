@@ -37,6 +37,7 @@ const addChip = (id) => {
     chip.classList.add("chip");
 
     chips.appendChild(chip);
+    input.value = "";
 }
 
 add.addEventListener("click", () => {addChip(id); id += 1;});
